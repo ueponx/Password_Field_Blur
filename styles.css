@@ -1,0 +1,37 @@
+/* パスワードフィールドにぼかし効果を適用するスタイル */
+.password-field-blur {
+  /* テキストを完全に透明にする */
+  color: transparent !important;
+  
+  /* テキスト選択時の色も透明に */
+  text-shadow: none !important;
+  
+  /* ぼかし効果を適用（文字のエッジを識別できないようにする） */
+  filter: blur(8px) !important;
+  
+  /* パスワードの文字数を推測できないように固定幅のプレースホルダーのように見せる */
+  background: rgba(0, 0, 0, 0.3) !important;
+  
+  /* パスワードの•••• 表示も隠す */
+  -webkit-text-security: none !important;
+  
+  /* フォーカス時のスタイルも上書き */
+}
+
+/* フォーカス時のスタイル */
+.password-field-blur:focus {
+  outline: 2px solid #007bff !important; /* フォーカス時の枠線 */
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+
+/* プレースホルダーテキストも隠す */
+.password-field-blur::placeholder {
+  color: transparent !important;
+  opacity: 0 !important;
+}
+
+/* 入力中のテキスト選択を隠す */
+.password-field-blur::selection {
+  background-color: transparent !important;
+  color: transparent !important;
+}
