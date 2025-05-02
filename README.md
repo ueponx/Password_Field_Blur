@@ -1,5 +1,7 @@
-# パスワードフィールドぼかし (Password Field Blur)
+# Password Field Blur (パスワードフィールドぼかし)
+
 ![password-field-blur icon](images/icon128-active.png)
+
 ウェブページ上のパスワードフィールドの入力状況を完全にぼかすためのChrome拡張機能です。
 
 ## 機能
