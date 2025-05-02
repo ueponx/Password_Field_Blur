@@ -96,4 +96,4 @@ MIT License - 詳細は [LICENSE](LICENSE) ファイルを参照してくださ�
 
 ## 謝辞
 - この拡張機能は多くのオープンソースプロジェクトに支えられています
-- アイコンはOpenMoji（CC BY-SA 4.0）を使用しています
+- アイコンの素材は[こちら](https://fonts.google.com/icons)を使用しています。
