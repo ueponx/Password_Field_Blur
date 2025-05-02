@@ -24,7 +24,7 @@
 ### 開発モードでのインストール
 1. このリポジトリをクローンまたはダウンロード
    ```
-   git clone https://github.com/yourusername/password-field-blur.git
+   git clone https://github.com/ueponx/password_field_blur.git
    ```
 2. Chromeブラウザで `chrome://extensions/` にアクセス
 3. 右上の「デベロッパーモード」を有効化
@@ -44,7 +44,7 @@
 
 ## プロジェクト構成
 ```
-password-field-blur/
+password_field_blur/
 ├── manifest.json           // 拡張機能の設定ファイル
 ├── popup.html              // ポップアップUI
 ├── popup.js                // ポップアップの制御スクリプト
