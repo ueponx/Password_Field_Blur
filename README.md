@@ -1,5 +1,5 @@
 # パスワードフィールドぼかし (Password Field Blur)
-![password-field-blur icon](images/icon128.png)
+![password-field-blur icon](images/icon128-active.png)
 ウェブページ上のパスワードフィールドの入力状況を完全にぼかすためのChrome拡張機能です。
 
 ## 機能
@@ -34,6 +34,11 @@
 2. ポップアップウィンドウでトグルスイッチをオンにする
 3. これで全てのパスワードフィールドがぼかされます
 4. 再度オフにするには、アイコンをクリックしてトグルをオフにします
+
+## スクリーンショット
+![変換前スクリーンショット](screenshot/screenshot1.png)
+![変換後スクリーンショット](screenshot/screenshot2.png)
+**変換前と変換後の比較例**
 
 ## プロジェクト構成
 ```
